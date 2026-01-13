@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 from datetime import datetime
 
-import db
 from invoice_export import make_invoice_docx, make_invoice_pdf
 
 st.set_page_config(page_title="CỬA HÀNG THUỐC BẢO THOA", layout="wide")
